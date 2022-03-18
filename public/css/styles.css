@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+/* CUSTOM CSS */
+body {
+  background-image: url("../images/textures/website-background.png");
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.page-header {
+  font-size: 80px;
+  text-shadow: 0 0 3px white;
+  font-family: "Permanent Marker", cursive;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 0 0 3px white;
+  font-family: "Permanent Marker", cursive;
+}
+
+.note {
+  background-image: url("../images/textures/notebook-dark.png");
+  width: 200px;
+}
+
+.project-card {
+  width: 350px;
+}
+
+.pin-bar {
+  margin: 10px 10px 0px;
+}
+
+.pin-l {
+  transform: rotate(-45deg);
+}
+
+.pin-r {
+  transform: rotate(45deg);
+}
+
+.thumbtack {
+  width: 60px;
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+
+.block {
+  display: block;
+  font-size: 20px;
+}
+
+/* BRAND SPECIFIC CSS */
+.linkedin-brand-logo {
+  width: 150px;
+  margin: 0 auto 15px;
+}
+
+.contact-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+/* BOOTSTRAP OVERRIDES */
+.card {
+  padding: 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.linkedin-badge {
+  width: 280px;
+}
+
+.linkedin-profile-img {
+  width: 160px;
+}
+
+.portfolio-image {
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 16/9;
+}
+
+/* FOR USE AS TESTING ONLY */
+.link-test {
+  color: red;
+}
