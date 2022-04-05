@@ -1,30 +1,7 @@
 import Project from "./portfolio/Project";
+import Projects from "./portfolio/Projects";
 
 function Portfolio() {
-  const projects = [
-    {
-      title: "Aviva Bites",
-      description: [
-        "Aviva Bites was a final year project by a group of BSc Food Science students from Stellenbosch.",
-        "I created a simple website (using HTML, CSS and Javascript) to aid in their final product presentation.",
-      ],
-      websiteURL: "https://avivabites.co.za",
-      imageURL: "aviva-bites.png",
-    },
-    {
-      title: "Keeper App",
-      description: [],
-      websiteURL: "",
-      imageURL: "",
-    },
-    {
-      title: "LIAMZONE",
-      description: ["Designed for LIAMZONE."],
-      websiteURL: "",
-      imageURL: "",
-    },
-  ];
-
   function fetchImage(project) {
     const projectImageURL = "./images/projects/";
     return project.imageURL
@@ -34,7 +11,7 @@ function Portfolio() {
 
   return (
     <div className="row gy-4">
-      {projects.map((project) => {
+      {Projects.map((project) => {
         return project.websiteURL ? (
           <div className="col d-grid justify-content-center">
             <Project
