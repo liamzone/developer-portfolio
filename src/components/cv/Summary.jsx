@@ -11,7 +11,7 @@ function Summary() {
         <div className="card-body">
           <h2 className="card-title">Professional Summary</h2>
           <p className="card-text">
-            I am an Information Technology graduate of{" "}
+            I am an Information Technology graduate from{" "}
             <strong>Pearson Institute of Higher Education</strong>. My passions
             include software development, esports and film & animation. My
             interests and experiences range from building and maintaining PCs to
